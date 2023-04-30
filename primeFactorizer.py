@@ -26,6 +26,7 @@ def primeFactorsOf(num):
                     primeFacs.append(i) 
             return primeFacs        
 
+#returns list of prime factor to the power it's count
 def repeatCountOfPrimeFacsOf(num):
             p=primeFactorsOf(num)
             repeatCountOfPrimeFacs=[]
